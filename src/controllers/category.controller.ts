@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Injectable, Param, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 import { Category } from '../models/category.entity';
 import { CategoryService } from '../services/category.service';
 
