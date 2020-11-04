@@ -25,4 +25,8 @@ export class CategoryService {
         await this.categoriesRepository.delete({ id: id });
     }
 
+    async findAll(): Promise<Category[]> {
+        return await this.categoriesRepository.find();
+    }
+
 }
