@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { CategoryModule } from './modules/category.module';
+import { CategoryModule } from './category/category.module';
 
 @Module({
   imports: [
